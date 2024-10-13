@@ -1,4 +1,7 @@
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -9,7 +12,7 @@ public class BankAccountBeforeAndAfterTest {
     @BeforeAll
     public void prepTest() {
         System.out.println("Hi!");
-        bankAccount = new BankAccount(500,0);
+        bankAccount = new BankAccount(500, 0);
     }
 
     @Test

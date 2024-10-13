@@ -28,7 +28,7 @@ public class BankAccountNestedTest {
         @Test
         @DisplayName("Withdrawing below minimum balance: exception")
         public void testWithdrawMinimumBalanceIs0() {
-            BankAccount bankAccount = new BankAccount(0 ,0);
+            BankAccount bankAccount = new BankAccount(0, 0);
             assertThrows(RuntimeException.class, () -> bankAccount.withdraw(500));
         }
 

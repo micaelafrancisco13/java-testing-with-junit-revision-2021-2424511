@@ -18,7 +18,7 @@ public class BankAccountTimeoutTest {
     public void testDepositTimeoutAssertion(BankAccount bankAccount) {
         try {
             Thread.sleep(200);
-        } catch(InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
@@ -30,7 +30,7 @@ public class BankAccountTimeoutTest {
     public void testDepositTimeoutAnnotation(BankAccount bankAccount) {
         try {
             Thread.sleep(1000);
-        } catch(InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
 

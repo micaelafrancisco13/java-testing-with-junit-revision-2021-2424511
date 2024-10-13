@@ -34,7 +34,7 @@ public class BankAccount {
     }
 
     public double withdraw(double amount) {
-        if(balance - amount > minimumBalance) {
+        if (balance - amount > minimumBalance) {
             balance -= amount;
             return amount;
         } else {

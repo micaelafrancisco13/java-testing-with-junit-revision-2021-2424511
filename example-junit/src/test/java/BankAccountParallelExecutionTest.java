@@ -14,7 +14,7 @@ public class BankAccountParallelExecutionTest {
     public void testDeposit1(BankAccount bankAccount) {
         try {
             Thread.sleep(200);
-        } catch(InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
         bankAccount.deposit(500);
@@ -26,7 +26,7 @@ public class BankAccountParallelExecutionTest {
     public void testDeposit2(BankAccount bankAccount) {
         try {
             Thread.sleep(2000);
-        } catch(InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
         bankAccount.deposit(500);
@@ -38,7 +38,7 @@ public class BankAccountParallelExecutionTest {
     public void testDeposit3(BankAccount bankAccount) {
         try {
             Thread.sleep(1200);
-        } catch(InterruptedException e) {
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
         bankAccount.deposit(500);

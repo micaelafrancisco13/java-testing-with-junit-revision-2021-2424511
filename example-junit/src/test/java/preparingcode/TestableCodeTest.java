@@ -6,11 +6,11 @@ import org.junit.jupiter.api.Test;
 import java.time.LocalDateTime;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestableCodeTest {
 
     private static TestableCode tc = new TestableCode();
+
     @Test
     @DisplayName("Test greeting special name")
     public void testSpecialNameGreeting() {

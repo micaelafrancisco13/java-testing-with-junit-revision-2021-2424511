@@ -24,7 +24,7 @@ public class BankAccountConditionalTest {
     @Test
     @DisabledOnJre({JRE.JAVA_16})
     public void testNoJRE16() {
-        
+
     }
 
 }

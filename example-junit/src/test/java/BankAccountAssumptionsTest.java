@@ -10,7 +10,8 @@ public class BankAccountAssumptionsTest {
     public void testActive0() {
         BankAccount bankAccount = new BankAccount(500, 0);
         assumeTrue(bankAccount != null);
-        assertTrue(bankAccount.isActive());    }
+        assertTrue(bankAccount.isActive());
+    }
 
     @Test
     @DisplayName("Test activation account after creation")
